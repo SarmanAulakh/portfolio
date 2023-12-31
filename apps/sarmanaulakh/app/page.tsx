@@ -1,4 +1,5 @@
-import styles from './page.module.scss';
+// import { ReactUi } from '@portfolio/react-ui'
+import { HelloServer } from '@portfolio/react-ui/server'
 
 export default async function Index() {
   /*
@@ -7,12 +8,18 @@ export default async function Index() {
    * Note: The corresponding styles are in the ./index.scss file.
    */
   return (
-    <div className={styles.page}>
+    <div>
       <div className="wrapper">
+        <div className="flex flex-row gap-4">
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+        </div>
         <div className="container">
+          <HelloServer />
           <div id="welcome">
             <h1>
-              <span> Hello there, </span>
+              <span> Hello there 1, </span>
               Welcome sarmanaulakh 👋
             </h1>
           </div>

@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@portfolio/react-ui": ["ui/react-ui/src/index.ts"],
+      "@portfolio/react-ui/server": ["ui/react-ui/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
